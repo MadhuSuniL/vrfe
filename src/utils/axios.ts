@@ -2,8 +2,8 @@ import axios, { AxiosError, AxiosInstance, AxiosResponse, Method, AxiosHeaders }
 import { getData } from "./localStorage";
 
 
-// export const BACKEND_HOST: string = "https://bujji-59bb.onrender.com/api/";
-export const BACKEND_HOST: string = "http://localhost:8000/api/";
+export const BACKEND_HOST: string = http://13.233.86.114:8000/api/";
+// export const BACKEND_HOST: string = "http://localhost:8000/api/";
 
 const instanceWithToken: AxiosInstance = axios.create({
     baseURL: BACKEND_HOST,
@@ -120,3 +120,4 @@ export const apiCall = async <T>(
 };
 
 export default apiCallWithToken;
+
